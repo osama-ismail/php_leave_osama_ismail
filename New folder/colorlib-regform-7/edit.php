@@ -30,7 +30,7 @@ require "lib.php";
 
 
         
-osama
+
 
 
 </body>

@@ -28,6 +28,12 @@ if(isset($_POST['editPassword'])){
 
 
 }
+if(isset($_POST['approve'])){
+    // if(!empty($_POST['ba']))
+    header("LOCATION: approve.php");
+
+
+}
 
 
 
@@ -61,6 +67,7 @@ if(isset($_POST['editPassword'])){
     <input type="submit" class="btn btn-success" name="addEmployee" id="signin" value="add new employee"/>
     <input type="submit" class="btn btn-success" name="addDepartment" id="signin1" value="add new Department"/>
     <input type="submit" class="btn btn-success" name="editPassword" id="signin" value="edii your password"/>
+    <input type="submit" class="btn btn-success" name="approve"  value="requests for leaving"/>
 
     
     </form>

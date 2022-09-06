@@ -35,7 +35,16 @@ function login($email,$password){
    }
    return  $data;
  }
-
+ function showAllData22(){
+  $con= mysqli_connect("localhost","root","","first_pro");
+  $myq= mysqli_query($con,"SELECT `id`,`name`,`email` FROM `user`");
+  $data=[];
+ while($res=mysqli_fetch_assoc($myq)){
+  $data[]=$res;
+  // print_r($data);
+ }
+ return  $data;
+}
  function showEmployeeId($value){
    $con= mysqli_connect("localhost","root","","first_pro");
    $myq= mysqli_query($con,"SELECT `id_employee`,`name`,`email` FROM `employee` where `id_employee`='".$value."' ");

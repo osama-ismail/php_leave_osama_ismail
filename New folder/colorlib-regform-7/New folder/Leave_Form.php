@@ -1685,7 +1685,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
 </script>
 </head>
 <body>
-<form class="jotform-form" action="https://submit.jotform.com/submit/222472774529464/" method="post" name="form_222472774529464" id="222472774529464" accept-charset="utf-8" autocomplete="on">
+<form class="jotform-form" action="checkForm.php" method="post" >
   <input type="hidden" name="formID" value="222472774529464" />
   <input type="hidden" id="JWTContainer" value="" />
   <input type="hidden" id="cardinalOrderNumber" value="" />
@@ -1761,85 +1761,12 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
           <textarea id="input_17" class="form-textarea" name="q17_reasonFor" cols="40" rows="6" data-component="textarea" aria-labelledby="label_17"></textarea>
         </div>
       </li>
-      <li class="form-line jf-required allowTime" data-type="control_datetime" id="id_20">
-        <label class="form-label form-label-left form-label-auto" id="label_20" for="lite_mode_20">
-          From
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_20" class="form-input jf-required">
-          <div data-wrapper-react="true" class="extended">
-            <div style="display:none">
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="month_20" name="q20_from20[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="section-input_20 off" aria-labelledby="label_20 sublabel_20_month" />
-                <span class="date-separate" aria-hidden="true">
-                   -
-                </span>
-                <label class="form-sub-label" for="month_20" id="sublabel_20_month" style="min-height:13px" aria-hidden="false"> Month </label>
-              </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="day_20" name="q20_from20[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="section-input_20 off" aria-labelledby="label_20 sublabel_20_day" />
-                <span class="date-separate" aria-hidden="true">
-                   -
-                </span>
-                <label class="form-sub-label" for="day_20" id="sublabel_20_day" style="min-height:13px" aria-hidden="false"> Day </label>
-              </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="year_20" name="q20_from20[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="" required="" autoComplete="section-input_20 off" aria-labelledby="label_20 sublabel_20_year" />
-                <label class="form-sub-label" for="year_20" id="sublabel_20_year" style="min-height:13px" aria-hidden="false"> Year </label>
-              </span>
-            </div>
-            <span class="form-sub-label-container" style="vertical-align:top">
-              <input type="text" class="form-textbox validate[required, limitDate, validateLiteDate]" id="lite_mode_20" size="12" data-maxlength="12" maxLength="12" data-age="" value="" required="" data-format="mmddyyyy" data-seperator="-" placeholder="mm-dd-yyyy" autoComplete="section-input_20 off" aria-labelledby="label_20 sublabel_20_litemode" />
-              <!-- <img class="showAutoCalendar newDefaultTheme-dateIcon icon-liteMode" alt="Pick a Date" id="input_20_pick" src="jawwal.png" data-component="datetime" aria-hidden="true" data-allow-time="Yes" data-version="v1" /> -->
-              <label class="form-sub-label" for="lite_mode_20" id="sublabel_20_litemode" style="min-height:13px" aria-hidden="false"> Date </label>
-            </span>
-            <span class="allowTime-container">
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <select class="time-dropdown form-dropdown validate[required, limitDate]" id="hour_20" name="q20_from20[hour]" aria-labelledby="label_20 sublabel_20_hour">
-                  <option>  </option>
-                  <option value="1"> 1 </option>
-                  <option value="2"> 2 </option>
-                  <option value="3"> 3 </option>
-                  <option value="4"> 4 </option>
-                  <option value="5"> 5 </option>
-                  <option value="6"> 6 </option>
-                  <option value="7"> 7 </option>
-                  <option value="8"> 8 </option>
-                  <option value="9"> 9 </option>
-                  <option value="10"> 10 </option>
-                  <option value="11"> 11 </option>
-                  <option value="12"> 12 </option>
-                </select>
-                <span class="date-separate" aria-hidden="true">
-                   :
-                </span>
-                <label class="form-sub-label" for="hour_20" id="sublabel_20_hour" style="min-height:13px" aria-hidden="false"> Hour </label>
-              </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_20" name="q20_from20[min]" aria-labelledby="label_20 sublabel_20_minutes">
-                  <option>  </option>
-                  <option value="00"> 00 </option>
-                  <option value="10"> 10 </option>
-                  <option value="20"> 20 </option>
-                  <option value="30"> 30 </option>
-                  <option value="40"> 40 </option>
-                  <option value="50"> 50 </option>
-                </select>
-                <label class="form-sub-label" for="min_20" id="sublabel_20_minutes" style="min-height:13px" aria-hidden="false"> Minutes </label>
-              </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <select class="time-dropdown form-dropdown validate[required, limitDate]" id="ampm_20" name="q20_from20[ampm]" aria-labelledby="label_20 sublabel_20_ampm">
-                  <option selected="" value="AM"> AM </option>
-                  <option value="PM"> PM </option>
-                </select>
-                <label class="form-sub-label" for="ampm_20" id="sublabel_20_ampm" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="false"> AM/PM Option </label>
-              </span>
-            </span>
-          </div>
-        </div>
-      </li>
+      <!-- <li class="form-line" data-type="control_textarea" id="id_17">
+        <label class="form-label form-label-left form-label-auto" id="label_17" for="input_17"> from</label>
+        <div id="cid_17" class="form-input">
+        <input type="text" placeholder="mm-dd-yyyy">
+      </div>
+      </li> -->
       <li class="form-line jf-required" data-type="control_datetime" id="id_21">
         <label class="form-label form-label-left form-label-auto" id="label_21" for="lite_mode_21">
           To
@@ -1847,31 +1774,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
             *
           </span>
         </label>
-        <div id="cid_21" class="form-input jf-required">
-          <div data-wrapper-react="true">
-            <div style="display:none">
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="month_21" name="q21_to[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="section-input_21 off" aria-labelledby="label_21 sublabel_21_month" />
-                <span class="date-separate" aria-hidden="true">
-                   -
-                </span>
-                <label class="form-sub-label" for="month_21" id="sublabel_21_month" style="min-height:13px" aria-hidden="false"> Month </label>
-              </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="day_21" name="q21_to[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="section-input_21 off" aria-labelledby="label_21 sublabel_21_day" />
-                <span class="date-separate" aria-hidden="true">
-                   -
-                </span>
-                <label class="form-sub-label" for="day_21" id="sublabel_21_day" style="min-height:13px" aria-hidden="false"> Day </label>
-              </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="year_21" name="q21_to[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="" required="" autoComplete="section-input_21 off" aria-labelledby="label_21 sublabel_21_year" />
-                <label class="form-sub-label" for="year_21" id="sublabel_21_year" style="min-height:13px" aria-hidden="false"> Year </label>
-              </span>
-            </div>
-
-          </div>
-        </div>
+       
       </li>
       
       <li class="form-line jf-required" data-type="control_dropdown" id="id_19">

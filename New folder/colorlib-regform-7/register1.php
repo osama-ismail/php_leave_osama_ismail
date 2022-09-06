@@ -6,7 +6,7 @@ if(empty($_SESSION['user'])){
     header("LOCATION:login.php");
 }
 
-$data=showAllData();    
+$data=showAllData22();    
 
 ?>
 <!DOCTYPE html>

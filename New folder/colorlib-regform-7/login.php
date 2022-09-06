@@ -13,7 +13,7 @@ if(isset($_POST['email'])){
             $userData=loginEmployee( $email, $password );
             if(!empty( $userData)){
                 $_SESSION['user']= $userData;
-                header("LOCATION: ./New folder/Leave_form.html");  
+                header("LOCATION: ./New folder/Leave_form.php");  
             }
             else{
                 echo "invalid user data";
